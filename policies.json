@@ -1,0 +1,189 @@
+{
+  "policies": {
+    "AppAutoUpdate": false,
+    "DNSOverHTTPS": {
+      "Enabled": false
+    },
+    "DisableAccounts": true,
+    "DisableDefaultBrowserAgent": true,
+    "DisableFeedbackCommands": true,
+    "DisableFirefoxStudies": true,
+    "DisableSetDesktopBackground": true,
+    "DisableTelemetry": true,
+    "DontCheckDefaultBrowser": true,
+    "EncryptedMediaExtensions": {
+      "Enabled": false
+    },
+    "ExtensionUpdate": false,
+    "FirefoxHome": {
+      "Highlights": false,
+      "Pocket": false,
+      "SponsoredPocket": false,
+      "SponsoredTopSites": false
+    },
+    "FirefoxSuggest": {
+      "ImproveSuggest": false,
+      "SponsoredSuggestions": false,
+      "WebSuggestions": false
+    },
+    "GenerativeAI": {
+      "Chatbot": false,
+      "Enabled": false,
+      "LinkPreviews": false,
+      "TabGroups": false
+    },
+    "ManualAppUpdateOnly": true,
+    "NetworkPrediction": false,
+    "NoDefaultBookmarks": true,
+    "OfferToSaveLoginsDefault": false,
+    "OverrideFirstRunPage": "",
+    "OverridePostUpdatePage": "",
+    "Permissions": {
+      "Autoplay": {
+        "Default": "block-audio-video"
+      },
+      "Camera": {
+        "BlockNewRequests": true
+      },
+      "Location": {
+        "BlockNewRequests": true
+      },
+      "Microphone": {
+        "BlockNewRequests": true
+      },
+      "Notifications": {
+        "BlockNewRequests": true
+      },
+      "ScreenShare": {
+        "BlockNewRequests": true
+      },
+      "VirtualReality": {
+        "BlockNewRequests": true
+      }
+    },
+    "Preferences": {
+      "accessibility.force_disabled": {
+        "Status": "default",
+        "Type": "number",
+        "Value": 1
+      },
+      "browser.eme.ui.enabled": {
+        "Status": "default",
+        "Type": "boolean",
+        "Value": false
+      },
+      "browser.ml.chat.enabled": {
+        "Status": "default",
+        "Type": "boolean",
+        "Value": false
+      },
+      "browser.ml.chat.shortcuts": {
+        "Status": "default",
+        "Type": "boolean",
+        "Value": false
+      },
+      "browser.ml.chat.sidebar": {
+        "Status": "default",
+        "Type": "boolean",
+        "Value": false
+      },
+      "browser.search.update": {
+        "Status": "locked",
+        "Type": "boolean",
+        "Value": false
+      },
+      "browser.tabs.warnOnClose": {
+        "Status": "locked",
+        "Type": "boolean",
+        "Value": true
+      },
+      "browser.translations.automaticallyPopup": {
+        "Status": "default",
+        "Type": "boolean",
+        "Value": false
+      },
+      "browser.translations.enable": {
+        "Status": "default",
+        "Type": "boolean",
+        "Value": false
+      },
+      "browser.urlbar.formatting.enabled": {
+        "Status": "default",
+        "Type": "boolean",
+        "Value": false
+      },
+      "browser.urlbar.trimURLs": {
+        "Status": "default",
+        "Type": "boolean",
+        "Value": false
+      },
+      "dom.media.autoplay-policy-detection.enabled": {
+        "Status": "default",
+        "Type": "boolean",
+        "Value": false
+      },
+      "extensions.getAddons.showPane": {
+        "Status": "default",
+        "Type": "boolean",
+        "Value": false
+      },
+      "media.autoplay.block-event.enabled": {
+        "Status": "default",
+        "Type": "boolean",
+        "Value": true
+      },
+      "media.autoplay.blocking_policy": {
+        "Status": "default",
+        "Type": "number",
+        "Value": 2
+      },
+      "media.gmp-gmpopenh264.enabled": {
+        "Status": "default",
+        "Type": "boolean",
+        "Value": false
+      },
+      "media.gmp-gmpopenh264.visible": {
+        "Status": "default",
+        "Type": "boolean",
+        "Value": false
+      },
+      "media.gmp-provider.enabled": {
+        "Status": "default",
+        "Type": "boolean",
+        "Value": false
+      },
+      "media.gmp-widevinecdm.enabled": {
+        "Status": "default",
+        "Type": "boolean",
+        "Value": false
+      },
+      "media.gmp-widevinecdm.visible": {
+        "Status": "default",
+        "Type": "boolean",
+        "Value": false
+      },
+      "network.IDN_show_punycode": {
+        "Status": "default",
+        "Type": "boolean",
+        "Value": true
+      },
+      "security.mixed_content.block_display_content": {
+        "Status": "default",
+        "Type": "boolean",
+        "Value": true
+      }
+    },
+    "SearchSuggestEnabled": false,
+    "StartDownloadsInTempDirectory": false,
+    "TranslateEnabled": false,
+    "UserMessaging": {
+      "ExtensionRecommendations": false,
+      "FeatureRecommendations": false,
+      "FirefoxLabs": false,
+      "MoreFromMozilla": false,
+      "SkipOnboarding": true,
+      "UrlbarInterventions": false
+    },
+    "VisualSearchEnabled": false
+  }
+}
