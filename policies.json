@@ -127,6 +127,11 @@
         "Type": "boolean",
         "Value": false
       },
+      "layout.spellcheckDefault": {
+        "Status": "default",
+        "Type": "number",
+        "Value": 0
+      },
       "media.autoplay.block-event.enabled": {
         "Status": "default",
         "Type": "boolean",
@@ -174,6 +179,7 @@
       }
     },
     "SearchSuggestEnabled": false,
+    "SkipTermsOfUse": true,
     "StartDownloadsInTempDirectory": false,
     "TranslateEnabled": false,
     "UserMessaging": {
