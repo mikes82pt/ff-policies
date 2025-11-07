@@ -1,6 +1,19 @@
 {
   "policies": {
     "AppAutoUpdate": false,
+    "AutoLaunchProtocolsFromOrigins": [
+      {
+        "allowed_origins": [
+          "https://1337x.to",
+          "https://thepiratebay.org",
+          "https://xxxclub.to"
+        ],
+        "protocol": "magnet"
+      }
+    ],
+    "AutofillAddressEnabled": false,
+    "AutofillCreditCardEnabled": false,
+    "BackgroundAppUpdate": false,
     "DNSOverHTTPS": {
       "Enabled": false
     },
@@ -72,6 +85,11 @@
         "Type": "boolean",
         "Value": false
       },
+      "browser.fixup.dns_first_for_single_words": {
+        "Status": "locked",
+        "Type": "boolean",
+        "Value": true
+      },
       "browser.ml.chat.enabled": {
         "Status": "default",
         "Type": "boolean",
@@ -114,6 +132,11 @@
       },
       "browser.urlbar.trimURLs": {
         "Status": "default",
+        "Type": "boolean",
+        "Value": false
+      },
+      "dom.event.contextmenu.enabled": {
+        "Status": "locked",
         "Type": "boolean",
         "Value": false
       },
@@ -181,6 +204,10 @@
     "SearchSuggestEnabled": false,
     "SkipTermsOfUse": true,
     "StartDownloadsInTempDirectory": false,
+    "SupportMenu": {
+      "Title": "Version 1.1",
+      "URL": "https://github.com/mikes82pt/ff-policies"
+    },
     "TranslateEnabled": false,
     "UserMessaging": {
       "ExtensionRecommendations": false,
