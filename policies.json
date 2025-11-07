@@ -1,6 +1,5 @@
 {
   "policies": {
-    "AppAutoUpdate": false,
     "AutoLaunchProtocolsFromOrigins": [
       {
         "allowed_origins": [
@@ -135,11 +134,6 @@
         "Type": "boolean",
         "Value": false
       },
-      "dom.event.contextmenu.enabled": {
-        "Status": "locked",
-        "Type": "boolean",
-        "Value": false
-      },
       "dom.media.autoplay-policy-detection.enabled": {
         "Status": "default",
         "Type": "boolean",
@@ -205,7 +199,7 @@
     "SkipTermsOfUse": true,
     "StartDownloadsInTempDirectory": false,
     "SupportMenu": {
-      "Title": "Version 1.1",
+      "Title": "Version 1.1.1",
       "URL": "https://github.com/mikes82pt/ff-policies"
     },
     "TranslateEnabled": false,
